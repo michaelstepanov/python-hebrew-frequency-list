@@ -4,6 +4,10 @@ The page is parsed
 
 > http://www.teachmehebrew.com/hebrew-frequency-list.html
 
+The PDF file is generated
+
+> [hebrew_frequency_list.pdf](./hebrew_frequency_list.pdf)
+
 ## Requirements
 
 Python 2.7
