@@ -1,8 +1,10 @@
 # The script parses a Hebrew frequency list page and generates convenient PDF file with the list
 
-http://www.teachmehebrew.com/hebrew-frequency-list.html - parsed page
+Parsed page:
+http://www.teachmehebrew.com/hebrew-frequency-list.html
 
-[hebrew_frequency_list.pdf](./hebrew_frequency_list.pdf) - generated PDF file
+Generated PDF file:
+[hebrew_frequency_list.pdf](./hebrew_frequency_list.pdf)
 
 ## Requirements
 
@@ -14,12 +16,12 @@ Python 2.7
   <li>ReportLab</li>
 </ul>
 
-## Dependencies installation:
+## Dependencies installation
     
 	pip install Scrapy
 	pip install reportlab
 	
-## How to run:
+## How to run
 
 	cd PATH_TO/python-hebrew-frequency-list
 	scrapy crawl hebrew_frequency_list
