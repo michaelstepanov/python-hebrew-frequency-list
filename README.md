@@ -1,6 +1,7 @@
 # The script parses a Hebrew frequency list page and generates convenient PDF file with the list
 
 http://www.teachmehebrew.com/hebrew-frequency-list.html - parsed page
+
 [hebrew_frequency_list.pdf](./hebrew_frequency_list.pdf) - generated PDF file
 
 ## Requirements
