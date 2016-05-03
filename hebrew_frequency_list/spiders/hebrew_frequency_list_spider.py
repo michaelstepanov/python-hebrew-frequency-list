@@ -26,7 +26,7 @@ class HebrewFrequencyListSpider(scrapy.Spider):
             if not word.xpath('.//td[3]/text()').extract():
                 item['transliteration'] = ''
             else:
-                item['transliteration'] = str(word.xpath('.//td[3]/text()').extract()[0].strip().encode('utf8'))
+                item['transliteration'] = str(word.xpath('.//td[3]').select('string()').extract()[0].strip().encode('utf8'))
 
             if not word.xpath('.//td[4]/text()').extract():
                 item['hebrew'] = ''

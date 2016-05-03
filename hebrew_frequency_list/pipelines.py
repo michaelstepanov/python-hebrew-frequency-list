@@ -26,4 +26,4 @@ class HebrewFrequencyListPipeline(object):
         self.words.append(values)
 
     def close_spider(self, spider):
-        PdfGenerator.generate_table('../../hebrew_frequency_list.pdf', self.words)
+        PdfGenerator.generate_table('hebrew_frequency_list.pdf', self.words)
